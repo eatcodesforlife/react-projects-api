@@ -31,7 +31,7 @@
         {
             "id": "receAEzz86KzW2gvH",
             "name": "Best of Poland in 10 Days Tour",
-            "info": "Starting in the colorful port city of Gdańsk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of Toruń, Poland's contemporary capital of Warsaw, the spiritual Jasna Góra Monastery, and charming Kraków — Poland's finest city. In this land of surprises — so trendy and hip, yet steeped in history — there's so much to discover. Join us for the Best of Poland in 10 Days!",
+            "info": "Staring in the colorful port city of Gdańsk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of Toruń, Poland's contemporary capital of Warsaw, the spiritual Jasna Góra Monastery, and charming Kraków — Poland's finest city. In this land of surprises — so trendy and hip, yet steeped in history — there's so much to discover. Join us for the Best of Poland in 10 Days!",
             "image": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1607830106/places/poland_wez5ez.jpg",
             "price": "2,595"
         }
@@ -112,6 +112,953 @@
             "text":
             "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic."
         }
-    ]
+    ],
 
+    "airbnb-clone-assets" : [
+       { 
+           "activities" : [
+                {
+                    "id": 1,
+                    "title": "Experiences",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/onlineexp1_otql1u.jpg",
+                    "description": "Find unforgettable activities near you.",
+                    "isFeatured": false
+                },
+                {
+                    "id": 2,
+                    "title": "Online Experiences",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/onlineexp2_bvkhat.jpg",
+                    "description": "Live, interactivies led by Hosts.",
+                    "isFeatured": false
+                },
+                {
+                    "id": 3,
+                    "title": "Olympians & Paralympians",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/thingstodo-olympians_bfkhsp.webp",
+                    "description": "Online activities hosted by athletes.",
+                    "isFeatured": true
+                }
+            ]
+        },
+        {
+            "footer" : [
+                {
+                    "title": "ABOUT",
+                    "footerLinks" : [
+                    "How Airbnb works",
+                    "Newsroom",
+                    "Airbnb 2021",
+                    "Investors",
+                    "Airbnb Plus",
+                    "Airbnb Luxe",
+                    "HotelTonight",
+                    "Airbnb for Work",
+                    "Made possible by Hosts",
+                    "Careers",
+                    "Founders' Letter"
+                    ]
+                },
+                {
+                    "title" : "COMMUNITY",
+                    "footerLinks": [
+                    "Diversity & Belonging",
+                    "Accessibility",
+                    "Airbnb Associates",
+                    "Frontline Stays",
+                    "Guest Referrals",
+                    "Airbnb.org"
+                    ]
+                },
+                {
+                    "title" : "HOST",
+                    "footerLinks": [
+                    "Host your home",
+                    "Host an Online Experience",
+                    "Host an Experience",
+                    "Responsible hosting",
+                    "Resource Center",
+                    "Community Center"
+                    ]
+                },
+                {
+                    "title" : "SUPPORT",
+                    "footerLinks": [
+                    "Our COVID-19 Response",
+                    "Help Center",
+                    "Cancellation options",
+                    "Neighborhood Support",
+                    "Trust & Safety"      
+                    ]
+                }
+            ]
+        },
+        {
+            "places" : [
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293619/airbnb-clone/explore-dxb_j285cb.webp",
+                    "location":"Dubai",
+                    "distance":"15 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-auh_hiofuf.webp",
+                    "location":"Abu Dhabi",
+                    "distance":"2 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-ajman_vadgo3.webp",
+                    "location":"Ajman",
+                    "distance":"45 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-aljazira_qravyq.webp",
+                    "location":"Al Jazira Al Hamra",
+                    "distance":"1.5 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628294131/airbnb-clone/explore-ras_rbqtuj.webp",
+                    "location":"Ras Al-Khaimah",
+                    "distance":"45 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-alain_e9isxf.webp",
+                    "location":"Al Ain",
+                    "distance":"2 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-dibba_wyg55u.webp",
+                    "location":"Dibba Al Fujairah",
+                    "distance":"2-hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-khor_mkqrcf.webp",
+                    "location":"Khor Fakkan",
+                    "distance":"2 hour drive"
+                }
+            ]
+        },
+        {
+            
+            "liveAnywhere" : [
+                { 
+                    "id" : 1,
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378575/airbnb-clone/outdoor-getaways_w8xuoq.webp",
+                    "title" : "Outdoor getaways"
+                },
+                { 
+                    "id" : 2,
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378570/airbnb-clone/unique-stays_serm0j.webp",
+                    "title" : "Unique stays"
+                },
+                { 
+                    "id" : 3,
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378568/airbnb-clone/entirehouse_oavnla.webp",
+                    "title" : "Entire homes"
+                },
+                { 
+                    "id" : 4,
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628382483/airbnb-clone/petsallowed_dw89or.webp",
+                    "title" : "Pets allowed"
+                }
+            ]
+        }
+        
+    ],
+    "activities" : [
+                {
+                    "id": 1,
+                    "title": "Experiences",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/onlineexp1_otql1u.jpg",
+                    "description": "Find unforgettable activities near you.",
+                    "isFeatured": false
+                },
+                {
+                    "id": 2,
+                    "title": "Online Experiences",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/onlineexp2_bvkhat.jpg",
+                    "description": "Live, interactivies led by Hosts.",
+                    "isFeatured": false
+                },
+                {
+                    "id": 3,
+                    "title": "Olympians & Paralympians",
+                    "img": "https://res.cloudinary.com/drfgkfzk2/image/upload/v1629270286/airbnb-clone/thingstodo-olympians_bfkhsp.webp",
+                    "description": "Online activities hosted by athletes.",
+                    "isFeatured": true
+                }
+            ],
+    "footer" : [
+        {
+            "title": "ABOUT",
+            "footerLinks" : [
+            "How Airbnb works",
+            "Newsroom",
+            "Airbnb 2021",
+            "Investors",
+            "Airbnb Plus",
+            "Airbnb Luxe",
+            "HotelTonight",
+            "Airbnb for Work",
+            "Made possible by Hosts",
+            "Careers",
+            "Founders' Letter"
+            ]
+        },
+        {
+            "title" : "COMMUNITY",
+            "footerLinks": [
+            "Diversity & Belonging",
+            "Accessibility",
+            "Airbnb Associates",
+            "Frontline Stays",
+            "Guest Referrals",
+            "Airbnb.org"
+            ]
+        },
+        {
+            "title" : "HOST",
+            "footerLinks": [
+            "Host your home",
+            "Host an Online Experience",
+            "Host an Experience",
+            "Responsible hosting",
+            "Resource Center",
+            "Community Center"
+            ]
+        },
+        {
+            "title" : "SUPPORT",
+            "footerLinks": [
+            "Our COVID-19 Response",
+            "Help Center",
+            "Cancellation options",
+            "Neighborhood Support",
+            "Trust & Safety"      
+            ]
+        }
+    ], 
+    "places" : [
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293619/airbnb-clone/explore-dxb_j285cb.webp",
+                    "location":"Dubai",
+                    "distance":"15 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-auh_hiofuf.webp",
+                    "location":"Abu Dhabi",
+                    "distance":"2 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-ajman_vadgo3.webp",
+                    "location":"Ajman",
+                    "distance":"45 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-aljazira_qravyq.webp",
+                    "location":"Al Jazira Al Hamra",
+                    "distance":"1.5 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628294131/airbnb-clone/explore-ras_rbqtuj.webp",
+                    "location":"Ras Al-Khaimah",
+                    "distance":"45 minute drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-alain_e9isxf.webp",
+                    "location":"Al Ain",
+                    "distance":"2 hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-dibba_wyg55u.webp",
+                    "location":"Dibba Al Fujairah",
+                    "distance":"2-hour drive"
+                },
+                { 
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628293636/airbnb-clone/explore-khor_mkqrcf.webp",
+                    "location":"Khor Fakkan",
+                    "distance":"2 hour drive"
+                }
+            ],
+    
+    "liveAnywhere" : [
+        { 
+            "id" : 1,
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378575/airbnb-clone/outdoor-getaways_w8xuoq.webp",
+            "title" : "Outdoor getaways"
+        },
+        { 
+            "id" : 2,
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378570/airbnb-clone/unique-stays_serm0j.webp",
+            "title" : "Unique stays"
+        },
+        { 
+            "id" : 3,
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628378568/airbnb-clone/entirehouse_oavnla.webp",
+            "title" : "Entire homes"
+        },
+        { 
+            "id" : 4,
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1628382483/airbnb-clone/petsallowed_dw89or.webp",
+            "title" : "Pets allowed"
+        }
+    ],
+
+    "airbnb-clone-city-search-results" : [
+        {
+            "dubai" : [
+                 {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property1_l66fcr.webp",
+                    "location":"Dubai Marina",
+                    "title":"STUDIO ONE RESIDENCE offers guests everything needed for a perfect stay in the heart of Dubai Marina",
+                    "description":"1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+                    "star": 4.73,
+                    "price": 95,
+                    "long":55.149230,
+                    "lat":25.084860,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property2_eopfjh.webp",
+                    "location":"Downtown Dubai",
+                    "title":"Luxury Penthouse in front of Burjkalifa with Pool",
+                    "description":"2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen",
+                    "star":4.3,
+                    "price": 150,
+                    "long":55.278920,
+                    "lat":25.193150,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property3_jygsaf.webp",
+                    "location":"Pier 7 Dubai Marina",
+                    "title":"SIlverene ultra-Luxury 1 bed Next to marina mall",
+                    "description":"4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine",
+                    "star":3.8,
+                    "price": 79,
+                    "total": 250,
+                    "long":55.138856846109334,
+                    "lat":25.07622695,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property4_zqmpbi.webp",
+                    "location":"Dubai International Financial Centre (DIFC)",
+                    "title":"50m2 Studio, King Bed, central DIFC, VALUE & EASY",
+                    "description":"1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+                    "star":4.1,
+                    "price":125,
+                    "long":55.28283001503219,
+                    "lat":25.213679550000002,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property5_nooeky.webp",
+                    "location":"Beach house in Dubai",
+                    "title":"Beach House Bali Style in Umm Suqueim 1",
+                    "description":"3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Free parking · Dry Cleaning",
+                    "star":5,
+                    "price":50,
+                    "long":55.194110870361335,
+                    "lat":25.14730470963993,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property6_ma9nsl.webp",
+                    "location":"Dubai, Media City 37",
+                    "title":"Radisson Blu Hotel Dubai, Media City 37",
+                    "description":"2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine",
+                    "star":4.23,
+                    "price":75,
+                    "long":55.1523767239939,
+                    "lat":25.0927636,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property7_p7w0gr.webp",
+                    "location":"Spacious Studio in Jumeirah Beach Residence",
+                    "title":"Amazing Studio | Direct Beach Access | Spacious",
+                    "description":"3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+                    "star":3.85,
+                    "price":75,
+                    "long":55.190826954504644,
+                    "lat":25.14159475,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                }
+            ]
+        },
+        {
+            "london" : [
+                {
+                    "title" : "Notting Hill Glow",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170679/airbnb-clone/nottinghill-lhr_dyzfow.jpg",
+                    "location" : "Entire rental unite in RB of Kensington and Chelsea",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 4.98,
+                    "price" : 233,
+                    "long" : -0.1954737806121809,
+                    "lat" : 51.51087930942383,
+                    "isSuperHost" : true,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Cosy 1 bed Paddington/Regents Park",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170679/airbnb-clone/paddington-lhr_f231an.webp",
+                    "location" : "Entire unit in the city of Westminster",
+                    "description" : "3 guests, · 1 bedroom, · 2 beds, · 1 bath",
+                    "star" : 4.73,
+                    "price" : 117,
+                    "long" : -0.17081800103188494,
+                    "lat" : 51.522668870857885,
+                    "isSuperHost" : true,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "NOX HOTELS | Golders Green, Double Studio",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/nox-lhr_ujcpzl.jpg",
+                    "location" : "Room in boutique hotel in LB of Barnet",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 4.55,
+                    "price" : 67,
+                    "long" : -0.20177695155143338,
+                    "lat" : 51.5755895063788,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Beautiful 1 bed apt in idyllic Hampstead enclave",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/hamstead-lhr_he3yza.webp",
+                    "location" : "Entire rental unit in LB of Camden",
+                    "description" : "2 guests, · 1 bedroom, · 2 beds, · 1 bath",
+                    "star" : 4.45,
+                    "price" : 148,
+                    "long" : -0.17632423341275238,
+                    "lat" : 51.561530483422175,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Cozy Double Room with Private Shower, near station",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/islington-lhr_wytcgf.webp",
+                    "location" : "Private room in LB of Islington",
+                    "description" : "1 guest, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 5.00,
+                    "price" : 57,
+                    "long" : -0.11711800839004693,
+                    "lat" : 51.55789566569451,
+                    "isSuperHost" : true,
+                    "roomCap" : 2
+                }
+                
+            ]
+        },
+        {
+            "newyork" : [
+                
+                {
+                    "title" : "citizenM New York Bowery",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/citizenm-jfk_ieyhyj.webp",
+                    "location" : "Boutique hotel in New York",
+                    "description" : "300 rooms, · Onsite restaurants, · Bar",
+                    "star" : 4.84,
+                    "price" : 209,
+                    "long" : -73.99345141649246,
+                    "lat" : 40.720609765525644,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Spacious Studio in Downtown BK",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/downtownbk-jfk_q6pdwv.webp",
+                    "location" : "Entire rental unit in downtown Brooklyn",
+                    "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                    "star" : "",
+                    "price" : 236,
+                    "long" : -73.9797315566612,
+                    "lat" : 40.690053912019,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Little Paris in Nolita",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/littleparis-jfk_nnqmaw.webp",
+                    "location" : "Entire unit in Noho",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : "",
+                    "price" : 199,
+                    "long" : -73.99398335814476,
+                    "lat" : 40.72489686578313,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Min from Barclay Ctr, museums, shopping mall, etc.",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/barclay-jfk_emsytf.webp",
+                    "location" : "Entire rental unit in East Flatbush",
+                    "description" : "4 guests, · 2 bedrooms, · 3 beds, · 1 bath",
+                    "star" : 4.77,
+                    "price" : 80,
+                    "long" : -73.92305302619934,
+                    "lat" : 40.66155280747314,
+                    "isSuperHost" : false,
+                    "roomCap" : 4
+                },
+                {
+                    "title" : "Great Room in the heart of Times Square!",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/timesquare-jfk_wjtkaw.webp",
+                    "location" : "Hotel room in Time Square/Theatre Distric",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 4.16,
+                    "price" : 125,
+                    "long" : -73.98845237532424,
+                    "lat" : 40.75873163080353,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Steps to Broadway 🍎 Walk to Rockefeller Ctr & Port Authority 🍎 Times Square",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/hellskitchen-jfk_skisny.jpg",
+                    "location" : "Private room in Hell's Kitchen",
+                    "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                    "star" : 5.0,
+                    "price" : 166,
+                    "long" : -73.99301749506759,
+                    "lat" : 40.761730324005136,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Beautiful CLEAN & cozy 1 bedroom in Inwood",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/washingtonheights-jfk_th6qq5.webp",
+                    "location" : "Entire rental unit in Washington Heights",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 4.78,
+                    "price" : 104,
+                    "long" : -73.92693054714965,
+                    "lat" : 40.85943066010876,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                }
+            ]
+        },
+        {
+            "sanfrancisco" : [
+                
+                {
+                    "title" : "Guest Suite in PacHeights",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/pacheights-sfo_xkhpne.jpg",
+                    "location" : "Entire guest suite in Pacific Heights",
+                    "description" : "4 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                    "star" : 4.81,
+                    "price" : 179,
+                    "long" : -122.43194150924681,
+                    "lat" : 37.788973791898435,
+                    "isSuperHost" : true,
+                    "roomCap" : 4
+                },
+                {
+                    "title" : "LOCATION LOCATION LOCATION",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/location-sfo_ske5qz.webp",
+                    "location" : "Entire condo in Western Addition/NOPA",
+                    "description" : "2 guests, · Studio, · 0 beds, · 1 bath",
+                    "star" : 4.88,
+                    "price" : 196,
+                    "long" : -122.43756878376006,
+                    "lat" : 37.78827005570881,
+                    "isSuperHost" : true,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Fabulous Artist Flat in the Heart of Potrero Hill",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/artist-sfo_wpdjy0.webp",
+                    "location" : "Entire rental unite in Potrero Hill",
+                    "description" : "4 guests, · 1 bedroom, · 2 beds, · 1 bath",
+                    "star" : 4.97,
+                    "price" : 225,
+                    "long" : -122.39336524697418,
+                    "lat" : 37.76396380665411,
+                    "isSuperHost" : false,
+                    "roomCap" : 4
+                },
+                {
+                    "title" : "New Private Room in the Upbeat Mission",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/upbeat-sfo_lwbeh1.webp",
+                    "location" : "Private room in Mission District",
+                    "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 private bath",
+                    "star" : 5.0,
+                    "price" : 101,
+                    "long" : -122.40846071931,
+                    "lat" : 37.75899343509585,
+                    "isSuperHost" : false,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Charming Studio In-Law with Kitchenette and Deck",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/charming-sfo_qmlcxu.jpg",
+                    "location" : "Entire guest suite in Oakland",
+                    "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                    "star" : 4.90,
+                    "price" : 78,
+                    "long" : -122.19259519668694,
+                    "lat" : 37.80333964496602,
+                    "isSuperHost" : true,
+                    "roomCap" : 2
+                },
+                {
+                    "title" : "Bright and Modern Home in the Sunset w/ Parking",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/bright-sfo_lhpcsc.webp",
+                    "location" : "Entire rental unit in Outer Sunset",
+                    "description" : "4 guests, · 2 bedrooms, · 2 beds, · 1 bath",
+                    "star" : 4.95,
+                    "price" : 278,
+                    "long" : -122.50420196580657,
+                    "lat" : 37.75167738630146,
+                    "isSuperHost" : true,
+                    "roomCap" : 4
+                },
+                {
+                    "title" : "Private, central, sunny, modern with deck& Peloton",
+                    "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/sunny-sfo_ghxsav.webp",
+                    "location" : "Entire residential home in Glenn Park",
+                    "description" : "5 guests, · 2 bedrooms, · 2 beds, · 1 bath",
+                    "star" : 4.81,
+                    "price" : 297,
+                    "long" : -122.42512507962951,
+                    "lat" : 37.73712763428902,
+                    "isSuperHost" : true,
+                    "roomCap" : 5
+                }
+            ]
+        }
+    ],
+    "dubai" : [
+            {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property1_l66fcr.webp",
+            "location":"Dubai Marina",
+            "title":"STUDIO ONE RESIDENCE offers guests everything needed for a perfect stay in the heart of Dubai Marina",
+            "description":"1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+            "star": 4.73,
+            "price": 95,
+            "long":55.149230,
+            "lat":25.084860,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property2_eopfjh.webp",
+            "location":"Downtown Dubai",
+            "title":"Luxury Penthouse in front of Burjkalifa with Pool",
+            "description":"2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen",
+            "star":4.3,
+            "price": 150,
+            "long":55.278920,
+            "lat":25.193150,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property3_jygsaf.webp",
+            "location":"Pier 7 Dubai Marina",
+            "title":"SIlverene ultra-Luxury 1 bed Next to marina mall",
+            "description":"4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine",
+            "star":3.8,
+            "price": 79,
+            "total": 250,
+            "long":55.138856846109334,
+            "lat":25.07622695,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property4_zqmpbi.webp",
+            "location":"Dubai International Financial Centre (DIFC)",
+            "title":"50m2 Studio, King Bed, central DIFC, VALUE & EASY",
+            "description":"1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+            "star":4.1,
+            "price":125,
+            "long":55.28283001503219,
+            "lat":25.213679550000002,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property5_nooeky.webp",
+            "location":"Beach house in Dubai",
+            "title":"Beach House Bali Style in Umm Suqueim 1",
+            "description":"3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Free parking · Dry Cleaning",
+            "star":5,
+            "price":50,
+            "long":55.194110870361335,
+            "lat":25.14730470963993,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property6_ma9nsl.webp",
+            "location":"Dubai, Media City 37",
+            "title":"Radisson Blu Hotel Dubai, Media City 37",
+            "description":"2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine",
+            "star":4.23,
+            "price":75,
+            "long":55.1523767239939,
+            "lat":25.0927636,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "img":"https://res.cloudinary.com/drfgkfzk2/image/upload/v1628790078/airbnb-clone/property7_p7w0gr.webp",
+            "location":"Spacious Studio in Jumeirah Beach Residence",
+            "title":"Amazing Studio | Direct Beach Access | Spacious",
+            "description":"3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+            "star":3.85,
+            "price":75,
+            "long":55.190826954504644,
+            "lat":25.14159475,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        }
+    ],
+    "london" : [
+        {
+            "title" : "Notting Hill Glow",
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170679/airbnb-clone/nottinghill-lhr_dyzfow.jpg",
+            "location" : "Entire rental unite in RB of Kensington and Chelsea",
+            "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+            "star" : 4.98,
+            "price" : 233,
+            "long" : -0.1954737806121809,
+            "lat" : 51.51087930942383,
+            "isSuperHost" : true,
+            "roomCap" : 2
+        },
+        {
+            "title" : "Cosy 1 bed Paddington/Regents Park",
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170679/airbnb-clone/paddington-lhr_f231an.webp",
+            "location" : "Entire unit in the city of Westminster",
+            "description" : "3 guests, · 1 bedroom, · 2 beds, · 1 bath",
+            "star" : 4.73,
+            "price" : 117,
+            "long" : -0.17081800103188494,
+            "lat" : 51.522668870857885,
+            "isSuperHost" : true,
+            "roomCap" : 2
+        },
+        {
+            "title" : "NOX HOTELS | Golders Green, Double Studio",
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/nox-lhr_ujcpzl.jpg",
+            "location" : "Room in boutique hotel in LB of Barnet",
+            "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+            "star" : 4.55,
+            "price" : 67,
+            "long" : -0.20177695155143338,
+            "lat" : 51.5755895063788,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "title" : "Beautiful 1 bed apt in idyllic Hampstead enclave",
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/hamstead-lhr_he3yza.webp",
+            "location" : "Entire rental unit in LB of Camden",
+            "description" : "2 guests, · 1 bedroom, · 2 beds, · 1 bath",
+            "star" : 4.45,
+            "price" : 148,
+            "long" : -0.17632423341275238,
+            "lat" : 51.561530483422175,
+            "isSuperHost" : false,
+            "roomCap" : 2
+        },
+        {
+            "title" : "Cozy Double Room with Private Shower, near station",
+            "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630170678/airbnb-clone/islington-lhr_wytcgf.webp",
+            "location" : "Private room in LB of Islington",
+            "description" : "1 guest, · 1 bedroom, · 1 bed, · 1 bath",
+            "star" : 5.00,
+            "price" : 57,
+            "long" : -0.11711800839004693,
+            "lat" : 51.55789566569451,
+            "isSuperHost" : true,
+            "roomCap" : 2
+        }
+        
+    ],
+    "newyork" : [
+    
+            {
+                "title" : "citizenM New York Bowery",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/citizenm-jfk_ieyhyj.webp",
+                "location" : "Boutique hotel in New York",
+                "description" : "300 rooms, · Onsite restaurants, · Bar",
+                "star" : 4.84,
+                "price" : 209,
+                "long" : -73.99345141649246,
+                "lat" : 40.720609765525644,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Spacious Studio in Downtown BK",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/downtownbk-jfk_q6pdwv.webp",
+                "location" : "Entire rental unit in downtown Brooklyn",
+                "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                "star" : "",
+                "price" : 236,
+                "long" : -73.9797315566612,
+                "lat" : 40.690053912019,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Little Paris in Nolita",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173367/airbnb-clone/littleparis-jfk_nnqmaw.webp",
+                "location" : "Entire unit in Noho",
+                "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                "star" : "",
+                "price" : 199,
+                "long" : -73.99398335814476,
+                "lat" : 40.72489686578313,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Min from Barclay Ctr, museums, shopping mall, etc.",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/barclay-jfk_emsytf.webp",
+                "location" : "Entire rental unit in East Flatbush",
+                "description" : "4 guests, · 2 bedrooms, · 3 beds, · 1 bath",
+                "star" : 4.77,
+                "price" : 80,
+                "long" : -73.92305302619934,
+                "lat" : 40.66155280747314,
+                "isSuperHost" : false,
+                "roomCap" : 4
+            },
+            {
+                "title" : "Great Room in the heart of Times Square!",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/timesquare-jfk_wjtkaw.webp",
+                "location" : "Hotel room in Time Square/Theatre Distric",
+                "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                "star" : 4.16,
+                "price" : 125,
+                "long" : -73.98845237532424,
+                "lat" : 40.75873163080353,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Steps to Broadway 🍎 Walk to Rockefeller Ctr & Port Authority 🍎 Times Square",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/hellskitchen-jfk_skisny.jpg",
+                "location" : "Private room in Hell's Kitchen",
+                "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                "star" : 5.0,
+                "price" : 166,
+                "long" : -73.99301749506759,
+                "lat" : 40.761730324005136,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Beautiful CLEAN & cozy 1 bedroom in Inwood",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630173368/airbnb-clone/washingtonheights-jfk_th6qq5.webp",
+                "location" : "Entire rental unit in Washington Heights",
+                "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                "star" : 4.78,
+                "price" : 104,
+                "long" : -73.92693054714965,
+                "lat" : 40.85943066010876,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            }
+        ],
+    "sanfrancisco" : [
+            
+            {
+                "title" : "Guest Suite in PacHeights",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/pacheights-sfo_xkhpne.jpg",
+                "location" : "Entire guest suite in Pacific Heights",
+                "description" : "4 guests, · 1 bedroom, · 1 bed, · 1 bath",
+                "star" : 4.81,
+                "price" : 179,
+                "long" : -122.43194150924681,
+                "lat" : 37.788973791898435,
+                "isSuperHost" : true,
+                "roomCap" : 4
+            },
+            {
+                "title" : "LOCATION LOCATION LOCATION",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/location-sfo_ske5qz.webp",
+                "location" : "Entire condo in Western Addition/NOPA",
+                "description" : "2 guests, · Studio, · 0 beds, · 1 bath",
+                "star" : 4.88,
+                "price" : 196,
+                "long" : -122.43756878376006,
+                "lat" : 37.78827005570881,
+                "isSuperHost" : true,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Fabulous Artist Flat in the Heart of Potrero Hill",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/artist-sfo_wpdjy0.webp",
+                "location" : "Entire rental unite in Potrero Hill",
+                "description" : "4 guests, · 1 bedroom, · 2 beds, · 1 bath",
+                "star" : 4.97,
+                "price" : 225,
+                "long" : 37.76396380665411  ,
+                "lat" : -122.39336524697418,
+                "isSuperHost" : false,
+                "roomCap" : 4
+            },
+            {
+                "title" : "New Private Room in the Upbeat Mission",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/upbeat-sfo_lwbeh1.webp",
+                "location" : "Private room in Mission District",
+                "description" : "2 guests, · 1 bedroom, · 1 bed, · 1 private bath",
+                "star" : 5.0,
+                "price" : 101,
+                "long" : -122.40846071931,
+                "lat" : 37.75899343509585,
+                "isSuperHost" : false,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Charming Studio In-Law with Kitchenette and Deck",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/charming-sfo_qmlcxu.jpg",
+                "location" : "Entire guest suite in Oakland",
+                "description" : "2 guests, · Studio, · 1 bed, · 1 bath",
+                "star" : 4.90,
+                "price" : 78,
+                "long" : -122.19259519668694,
+                "lat" : 37.80333964496602,
+                "isSuperHost" : true,
+                "roomCap" : 2
+            },
+            {
+                "title" : "Bright and Modern Home in the Sunset w/ Parking",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/bright-sfo_lhpcsc.webp",
+                "location" : "Entire rental unit in Outer Sunset",
+                "description" : "4 guests, · 2 bedrooms, · 2 beds, · 1 bath",
+                "star" : 4.95,
+                "price" : 278,
+                "long" : -122.50420196580657,
+                "lat" : 37.75167738630146,
+                "isSuperHost" : true,
+                "roomCap" : 4
+            },
+            {
+                "title" : "Private, central, sunny, modern with deck& Peloton",
+                "img" : "https://res.cloudinary.com/drfgkfzk2/image/upload/v1630178323/airbnb-clone/sunny-sfo_ghxsav.webp",
+                "location" : "Entire residential home in Glenn Park",
+                "description" : "5 guests, · 2 bedrooms, · 2 beds, · 1 bath",
+                "star" : 4.81,
+                "price" : 297,
+                "long" : -122.42512507962951,
+                "lat" : 37.73712763428902,
+                "isSuperHost" : true,
+                "roomCap" : 5
+            }
+        ]
+  
 }
